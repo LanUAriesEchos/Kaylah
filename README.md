@@ -1,3 +1,7 @@
 # Kaylah
 School a over restrictive frick here you go lol
-![Tux, the Linux mascot](https://i.ibb.co/2jQyy65/unnamed.jpg)
+
+
+
+# HTMLpage
+The html page is ran by simply opening index.html in google chrome or any web browser.
