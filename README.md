@@ -16,3 +16,8 @@ https://github.com/users/LanAriesEchos/projects/2/views/1
 
 Bug tracker:
 https://github.com/users/LanAriesEchos/projects/3/views/1
+
+# Contact us!
+
+Discord:
+https://discord.gg/akn75HBuJV
