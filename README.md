@@ -9,9 +9,7 @@ The html page is ran by simply opening index.html in google chrome or any web br
 
 # Updates
 
-⚒️PhpMyadmin(web edition only)
-Why does this have to exist here on the local copy?
-testing results.
+Serial terminal! hover over tools and click on SerialTerminal!
 
 
 
