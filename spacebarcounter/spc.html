@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<style>
+
+#counter {
+    text-align: center;
+    padding: -140px;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow:hidden;
+  background-color: #333;
+  top: 0;
+}
+
+li {
+  float: left;
+}
+#DIVI {
+  float: right;
+  padding: 13px;
+  
+}
+#SSER {
+  border: 3px #04AA6D;
+}
+li a, .dropbtn {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li p {
+    display: block;
+  color: rgb(223, 4, 252);
+  text-align: center;
+  padding: 0px 16px;
+  text-decoration: none;
+}
+li img {
+    display: block;
+  color: rgb(223, 4, 252);
+  text-align: center;
+  padding: 0px 0px;
+  text-decoration: none;
+  size: 4ch;
+}
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: #111;
+}
+li a:hover:not(.active) {
+  background-color: #111;
+}
+li.dropdown {
+  display: inline-block;
+}
+.active {
+  background-color: #04AA6D;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+#Tit {
+  text-align: center;
+}
+#DROPDOWN_TOOLS {
+  padding: 13px;
+}
+#Dropbtn {
+  padding: 2px;
+}
+
+#FFT {
+  padding: 1cm;
+}
+
+</style>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaylah//Games/SpacebarCounter</title>
+    <link rel="icon" type="image/x-icon" href="Storage/Images/Webpage/Favicon.ico">
+    <script>
+        var hits = 0;
+var hitElement = document.querySelector( '.hits' );
+document.body.onkeyup = function(e) {
+  if( e.keyCode == 32 ) {
+    addHit();
+  }
+}
+
+var addHit = function() {
+  hits++;
+  renderHits();
+}
+
+var renderHits = function() {
+  hitElement.innerHTML = hits;
+}
+
+var resetHits = function() {
+  hits = 0;
+  renderHits();
+}
+
+    </script>
+</head>
+
+<body>
+ 
+            
+
+
+<ul>
+  <li><img src="/Storage/Images/Webpage/Logo.jpg" style="width:53px;height:50px;"></li>
+  <li><p>Kaylah</p></li>
+  <li><a href="/index.html">Home</a></li>
+  <li><a href="/Games.html">Games</a></li>
+  <li><a href="/Chjkmmpt.html">Chat</a></li>
+  <li><a href="/infopgl.html">Info</a></li>\
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Tools</a>
+    <div class="dropdown-content">
+      <a href="/Tools/SerialTerminal/index-150lines.html">SerialTerminal</a>
+
+    </div>
+  </li>
+  <div id="DIVI" class="left"><form id="SSER"><input type="text" name="serch" placeholder="Search..."</form></div>
+</ul>
+<div id="activity">
+    <h1 id="counter">You have hit the spacebar <span class="hits">0</span> times.</h1>
+    <a href="#" onclick="resetHits()" class="tryagain">RESTART</a>
+          </div>
+          <script>
+            var hits = 0;
+    var hitElement = document.querySelector( '.hits' );
+    document.body.onkeyup = function(e) {
+      if( e.keyCode == 32 ) {
+        addHit();
+      }
+    }
+    var addHit = function() {
+      hits++;
+      renderHits();
+    }
+    
+    var renderHits = function() {
+      hitElement.innerHTML = hits;
+    }
+    
+    var resetHits = function() {
+      hits = 0;
+      renderHits();
+    }
+    
+        </script>
+        </body>
