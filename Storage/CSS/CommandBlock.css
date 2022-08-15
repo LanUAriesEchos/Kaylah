@@ -1,0 +1,14 @@
+.CCBlock {
+    display: block;
+    background-color: aliceblue;
+    
+
+
+    border-left: 0.2cm solid red;
+    border-left-style: dashed;
+}
+
+
+.CCBlock #PCMD {
+    padding: 7px;
+}

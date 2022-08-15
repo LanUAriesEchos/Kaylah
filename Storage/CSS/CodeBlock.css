@@ -1,0 +1,16 @@
+.CDblock {
+   display: block;
+   background-color: #5487b1;
+   box-sizing: inherit;
+ 
+   border-color: #0d94ff;
+   border-left: 1ch solid #0d94ff;
+
+}
+.CDblock #PCode {
+    padding: 7px;
+}
+.CDBBorder, .CBDHoverBorder:hover {
+    border-color: #0d94ff!important;
+}
+
